@@ -10,8 +10,8 @@ spec:
         app: helloworld-v1
     spec:
       containers:
-      - name: k8s-demo
-        image: wardviaene/k8s-demo:latest
+      - name: k8s-course
+        image: alzamabar/k8s-course:v1:latest
         ports:
         - name: nodejs-port
           containerPort: 3000
