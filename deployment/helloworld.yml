@@ -5,6 +5,9 @@ metadata:
 spec:
   replicas: 3
   revisionHistoryLimit: 100
+  selector:
+    matchLabels:
+      app: helloworld
   template:
     metadata:
       labels:
